@@ -102,8 +102,7 @@
 				TargetAttributes = {
 					FD020AEE1E825C38000BAF1C = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = VJN4EB6PTB;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -271,15 +270,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VJN4EB6PTB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpeechToTextPOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.photon.speechToText.SpeechToTextPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.longhorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a2dade5e-6c1e-4227-8c04-da896edb0a51";
-				PROVISIONING_PROFILE_SPECIFIER = PhotonDevGenericProvisionFile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -288,15 +288,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = VJN4EB6PTB;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpeechToTextPOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.photon.speechToText.SpeechToTextPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.longhorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a2dade5e-6c1e-4227-8c04-da896edb0a51";
-				PROVISIONING_PROFILE_SPECIFIER = PhotonDevGenericProvisionFile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
