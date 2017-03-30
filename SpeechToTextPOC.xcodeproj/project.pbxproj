@@ -271,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VJN4EB6PTB;
 				INFOPLIST_FILE = SpeechToTextPOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -287,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VJN4EB6PTB;
 				INFOPLIST_FILE = SpeechToTextPOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
